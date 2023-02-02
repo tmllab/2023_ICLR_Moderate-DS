@@ -85,7 +85,6 @@ Per-corrupt ratio can be altered in Line 19. You can alter the directory to save
 ```bash
 python corrupt-cifar.py
 ```
-
 #### Corrupt Tiny ImageNet
 
 The script will corrupt images **in-place**. Per-corrupt ratio can be altered in Line 18.
@@ -94,7 +93,6 @@ The script will corrupt images **in-place**. Per-corrupt ratio can be altered in
 cp -r ../data/tiny-imagenet-200 ../data/tiny-imagenet-200-corrupt
 python corrupt-tiny.py
 ```
-
 #### Attack CIFAR-100
 
 The script will perform either PGD attack or GSA attack on CIFAR-100.  You can change attack types in Line 18. 
@@ -102,7 +100,6 @@ The script will perform either PGD attack or GSA attack on CIFAR-100.  You can c
 ```
 python attack-cifar.py
 ```
-
 #### Attack Tiny ImageNet
 
 The script will perform either PGD attack or GSA attack on Tiny ImageNet. You can change attack types in Line 18. 
@@ -110,7 +107,6 @@ The script will perform either PGD attack or GSA attack on Tiny ImageNet. You ca
 ```
 python attack-tiny.py
 ```
-
 #### Add Label Noise to CIFAR-100
 
 The script will add random noise to a part of the trainset. You can change mislabeled data ratio at Line 7. Labels are saved at `data/noisy/cifar.npy`
@@ -118,7 +114,6 @@ The script will add random noise to a part of the trainset. You can change misla
 ```bash
 python noisy-cifar.py
 ```
-
 #### Add Label Noise to Tiny ImageNet
 
 Mislabeled data ratio can be changed at Line 9.
@@ -128,7 +123,6 @@ Images are saved at `data/noisy/tiny_img.npy`，labels are saved at `data/noisy/
 ```
 python noisy-tiny.py
 ```
-
 #### Data Selection on Perturbed Dataset
 
 Performing data selection on perturbed dataset is almost the same as performing on ideal dataset. Simply add one of `C` `A` `N` to dataset name, where `C` is for corrupted, `A` is for attacked, `N` is for noisy label. Here are some examples for training on perturbed dataset.
