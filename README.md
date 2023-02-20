@@ -1,6 +1,6 @@
 # Moderate Coreset: A Universal Method of Data Selection For Real-world Data-efficient Deep Learning
 
-This repo contains code for selecting coreset and training on selected coreset using the methods provided by our paper Moderate Coreset: A Universal Method of Data Selection For Real-world Data-efficient Deep Learning (ICLR 2023). 
+This repo contains code for selecting coreset and training on selected coreset using the methods provided by our paper: [Moderate Coreset: A Universal Method of Data Selection For Real-world Data-efficient Deep Learning (ICLR 2023).](https://openreview.net/forum?id=7D5EECbOaf9)
 
 ## Abstract
 
